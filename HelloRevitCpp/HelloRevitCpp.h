@@ -5,10 +5,7 @@
 namespace HelloRevitCpp {
 
 	[Autodesk::Revit::Attributes::Transaction(
-    Autodesk::Revit::Attributes::TransactionMode::Automatic)]
-
-	[Autodesk::Revit::Attributes::Regeneration(
-    Autodesk::Revit::Attributes::RegenerationOption::Manual)]
+    Autodesk::Revit::Attributes::TransactionMode::ReadOnly)]
 
   public ref class Command 
     : Autodesk::Revit::UI::IExternalCommand
