@@ -4,6 +4,7 @@
 #include "HelloRevitCpp.h"
 
 using namespace System;
+using namespace System::Diagnostics;
 using namespace Autodesk::Revit::ApplicationServices;
 using namespace Autodesk::Revit::Attributes;
 using namespace Autodesk::Revit::DB;
@@ -16,6 +17,8 @@ Result Command::Execute(
   String^% message, 
   ElementSet^ elements )
 {
+  Debug::Print("entering Command::Execute");
+
   TaskDialog::Show("Hello Revit from C++",
     "This is a task dialogue in HelloRevitCpp.cpp");
 
