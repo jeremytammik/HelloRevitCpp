@@ -1,6 +1,11 @@
 # Visual Studio files
 
 .vs/*
+Debug/*
+HelloRevitCpp/Debug/*
+ipch/*
+HelloRevitCpp.VC.VC.opendb
+HelloRevitCpp.VC.db
 
 # Prerequisites
 *.d
