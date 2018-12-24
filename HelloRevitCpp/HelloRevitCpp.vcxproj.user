@@ -4,5 +4,7 @@
     <LocalDebuggerCommand>C:\Program Files\Autodesk\Revit 2018\Revit.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments>Y:\a\rvt\rac_2018_1_empty.rvt</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerAttach>false</LocalDebuggerAttach>
+    <LocalDebuggerDebuggerType>ManagedOnly</LocalDebuggerDebuggerType>
   </PropertyGroup>
 </Project>

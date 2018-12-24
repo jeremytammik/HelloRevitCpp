@@ -16,5 +16,8 @@ Result Command::Execute(
   String^% message, 
   ElementSet^ elements )
 {
+  TaskDialog::Show("Hello Revit from C++",
+    "This is a task dialogue in HelloRevitCpp.cpp");
+
   return Autodesk::Revit::UI::Result::Succeeded;
 }
