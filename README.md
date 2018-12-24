@@ -9,7 +9,7 @@ from October 2010 [how to set up a C++ Revit add-in](https://thebuildingcoder.ty
 
 ## Author
 
-- Jeremy Tammik,
+Jeremy Tammik,
 [The Building Coder](http://thebuildingcoder.typepad.com),
 [Forge](http://forge.autodesk.com) [Platform](https://developer.autodesk.com) Development,
 [ADN](http://www.autodesk.com/adn)
