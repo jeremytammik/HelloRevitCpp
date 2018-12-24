@@ -12,11 +12,11 @@ using namespace System::Security::Permissions;
 // associated with an assembly.
 //
 [assembly:AssemblyTitleAttribute("HelloRevitCpp")];
-[assembly:AssemblyDescriptionAttribute("")];
-[assembly:AssemblyConfigurationAttribute("")];
+[assembly:AssemblyDescriptionAttribute("Managed C++ Revit add-in skeleton")];
+[assembly:AssemblyConfigurationAttribute("Managed C++ Revit add-in")];
 [assembly:AssemblyCompanyAttribute("Autodesk, Inc.")];
 [assembly:AssemblyProductAttribute("HelloRevitCpp")];
-[assembly:AssemblyCopyrightAttribute("Copyright (c) Autodesk, Inc. 2010")];
+[assembly:AssemblyCopyrightAttribute("Copyright (c) 2010-2018 by Jeremy Tammik, Autodesk, Inc.")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
 
@@ -31,10 +31,10 @@ using namespace System::Security::Permissions;
 // You can specify all the value or you can default the Revision and Build Numbers
 // by using the '*' as shown below:
 
-[assembly:AssemblyVersionAttribute("1.0.*")];
+[assembly:AssemblyVersionAttribute("2018.0.0.0")];
 
 [assembly:ComVisible(false)];
 
 [assembly:CLSCompliantAttribute(true)];
 
-[assembly:SecurityPermission(SecurityAction::RequestMinimum, UnmanagedCode = true)];
+//[assembly:SecurityPermission(SecurityAction::RequestMinimum, UnmanagedCode = true)];
