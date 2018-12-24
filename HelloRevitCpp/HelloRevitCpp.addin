@@ -3,7 +3,7 @@
   <AddIn Type="Command">
     <Text>Hello Revit Cpp</Text>
     <Description>My first Cpp Revit add-in</Description>
-    <Assembly>C:\a\j\adn\case\bsd\1263568\src\HelloRevitCpp\Debug\HelloRevitCpp.dll</Assembly>
+    <Assembly>HelloRevitCpp.dll</Assembly>
     <FullClassName>HelloRevitCpp.Command</FullClassName>
     <ClientId>be7f62ce-d5d0-4b3b-9298-327c2c6d22f4</ClientId>
   </AddIn>
