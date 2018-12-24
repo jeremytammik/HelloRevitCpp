@@ -6,5 +6,7 @@
     <Assembly>HelloRevitCpp.dll</Assembly>
     <FullClassName>HelloRevitCpp.Command</FullClassName>
     <ClientId>be7f62ce-d5d0-4b3b-9298-327c2c6d22f4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>    
   </AddIn>
 </RevitAddIns>
